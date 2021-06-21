@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/captionNotificationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Заголовок уведомления"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/textNotificationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Текст уведомления"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+        <RadioButton
+            android:id="@+id/highPriorityRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Высокий приоритет"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/lowPriorityRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Низкий приоритет"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sendNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить" />
+
+</LinearLayout>

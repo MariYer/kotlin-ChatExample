@@ -1,0 +1,42 @@
+com/mariyer/chatexample/data/db/ChatDatabase_Impl.java
+ com.mariyer.chatexample.data.db.ChatDatabase_Impl
+ com.mariyer.chatexample.data.db.ChatDatabase_Impl$1
+com/mariyer/chatexample/data/db/UserDao_Impl.java
+ com.mariyer.chatexample.data.db.UserDao_Impl
+ com.mariyer.chatexample.data.db.UserDao_Impl$1
+ com.mariyer.chatexample.data.db.UserDao_Impl$2
+ com.mariyer.chatexample.data.db.UserDao_Impl$3
+ com.mariyer.chatexample.data.db.UserDao_Impl$4
+ com.mariyer.chatexample.data.db.UserDao_Impl$5
+ com.mariyer.chatexample.data.db.UserDao_Impl$6
+ com.mariyer.chatexample.data.db.UserDao_Impl$7
+ com.mariyer.chatexample.data.db.UserDao_Impl$8
+ com.mariyer.chatexample.data.db.UserDao_Impl$9
+com/mariyer/chatexample/databinding/FragmentNotificationsBinding.java
+ com.mariyer.chatexample.databinding.FragmentNotificationsBinding
+com/mariyer/chatexample/databinding/ActivityMainBinding.java
+ com.mariyer.chatexample.databinding.ActivityMainBinding
+com/mariyer/chatexample/databinding/FragmentSynchronizeBinding.java
+ com.mariyer.chatexample.databinding.FragmentSynchronizeBinding
+com/mariyer/chatexample/databinding/FragmentChatBinding.java
+ com.mariyer.chatexample.databinding.FragmentChatBinding
+com/mariyer/chatexample/databinding/ItemChatBinding.java
+ com.mariyer.chatexample.databinding.ItemChatBinding
+com/mariyer/chatexample/BuildConfig.java
+ com.mariyer.chatexample.BuildConfig
+com/mariyer/chatexample/databinding/FragmentMainBinding.java
+ com.mariyer.chatexample.databinding.FragmentMainBinding
+com/mariyer/chatexample/data/db/MessageDao_Impl.java
+ com.mariyer.chatexample.data.db.MessageDao_Impl
+ com.mariyer.chatexample.data.db.MessageDao_Impl$1
+ com.mariyer.chatexample.data.db.MessageDao_Impl$2
+ com.mariyer.chatexample.data.db.MessageDao_Impl$3
+ com.mariyer.chatexample.data.db.MessageDao_Impl$4
+ com.mariyer.chatexample.data.db.MessageDao_Impl$5
+ com.mariyer.chatexample.data.db.MessageDao_Impl$6
+ com.mariyer.chatexample.data.db.MessageDao_Impl$7
+ com.mariyer.chatexample.data.db.MessageDao_Impl$8
+com/mariyer/chatexample/databinding/FragmentChatUsersBinding.java
+ com.mariyer.chatexample.databinding.FragmentChatUsersBinding
+com/mariyer/chatexample/databinding/ItemChatUserBinding.java
+ com.mariyer.chatexample.databinding.ItemChatUserBinding

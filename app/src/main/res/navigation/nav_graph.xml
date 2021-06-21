@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mariyer.chatexample.ui.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment"
+            app:popUpTo="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_synchronizeFragment"
+            app:destination="@id/synchronizeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpTo="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_chatUserListFragment"
+            app:destination="@id/chatUserListFragment"
+            app:popUpTo="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.mariyer.chatexample.ui.NotificationsFragment"
+        android:label="NotificationsFragment"
+        tools:layout="@layout/fragment_notifications"/>
+    <fragment
+        android:id="@+id/synchronizeFragment"
+        android:name="com.mariyer.chatexample.ui.SynchronizeFragment"
+        android:label="SynchronizeFragment"
+        tools:layout="@layout/fragment_synchronize"/>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.mariyer.chatexample.ui.ChatFragment"
+        android:label="ChatFragment"
+        tools:layout="@layout/fragment_chat" >
+        <argument
+            android:name="userId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatUserListFragment"
+        android:name="com.mariyer.chatexample.ui.ChatUserListFragment"
+        android:label="ChatUserListFragment"
+        tools:layout="@layout/fragment_chat_users">
+        <action
+            android:id="@+id/action_chatUserListFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpTo="@id/chatUserListFragment" />
+    </fragment>
+</navigation>

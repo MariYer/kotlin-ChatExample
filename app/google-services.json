@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "929380127475",
+    "project_id": "mariyertest",
+    "storage_bucket": "mariyertest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929380127475:android:8153b70de52adcea219d86",
+        "android_client_info": {
+          "package_name": "com.mariyer.chatexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929380127475-qe1f994cgej285estk58qtpvajms47nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ9Swm94SMwKIbD8hzD2yB31L4zcIKN9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929380127475-qe1f994cgej285estk58qtpvajms47nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929380127475:android:b0f0e4e39b221faf219d86",
+        "android_client_info": {
+          "package_name": "com.skillbox.mariyernotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929380127475-qe1f994cgej285estk58qtpvajms47nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ9Swm94SMwKIbD8hzD2yB31L4zcIKN9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929380127475-qe1f994cgej285estk58qtpvajms47nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
